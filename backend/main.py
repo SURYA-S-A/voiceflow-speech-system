@@ -6,12 +6,10 @@ from app.api.unified_ws import router as unified_ws_router
 from app.api.vad_ws import router as vad_ws_router
 
 
-app = FastAPI(title="Speech Services API")
-
 app = FastAPI(
     title="Speech Services API",
     description="""
-    A unified API for **Speech-to-Text (STT)**, **Text-to-Speech (TTS)**, and **Voice Activity Detection (VAD)**.
+    A unified API for Speech-to-Text (STT), Text-to-Speech (TTS), and Voice Activity Detection (VAD).
     Provides WebSocket and HTTP endpoints for real-time and batch audio processing.
     """,
     version="1.0.0",
