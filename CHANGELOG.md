@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.0] - 2026-02-23
+
+### Added
+- Next.js frontend with real-time voice chat interface
+- VAD test page (`/nextapp/vad`) for background noise detection
+- Unified STT + TTS live stream page (`/nextapp/unified`)
+- Manual button capture page (`/nextapp/voice`) for STT and playback
+- Full chat interface (`/nextapp/bot/voice`) combining VAD, STT, and TTS
+
+### Changed
+- Project structure with `backend/` and `frontend/` folders
+- Renamed project to `voiceflow-speech-system`
+
+---
+
 ## [0.1.0] - 2026-02-08
 
 ### Added

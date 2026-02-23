@@ -1,9 +1,9 @@
 [project]
-name = "speech-services-api"
-version = "0.1.0"
-description = ""
+name = "voiceflow-speech-api"
+version = "1.0.0"
+description = "Real-time speech processing API with STT, TTS, and VAD over WebSocket"
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "SURYA",email = "15arul.surya16@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.9,<3.13"

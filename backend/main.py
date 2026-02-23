@@ -7,7 +7,7 @@ from app.api.vad_ws import router as vad_ws_router
 
 
 app = FastAPI(
-    title="Speech Services API",
+    title="VoiceFlow Speech API",
     description="""
     A unified API for Speech-to-Text (STT), Text-to-Speech (TTS), and Voice Activity Detection (VAD).
     Provides WebSocket and HTTP endpoints for real-time and batch audio processing.
